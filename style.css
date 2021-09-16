@@ -32,45 +32,48 @@ body {
 }
 
 /* SUMMARY PART STYLESHEET */
-.summary {
+.card-text {
     margin: 0.5rem 2.3rem;
 }
-.summary h1 {
+.card-text h1 {
     font-size: 1.5rem;
     font-weight: 900;
     color: hsl(223, 47%, 23%);
     margin: 2rem;
     margin-bottom: 1rem;
 }
-.summary h2 {
+.card-text h2 {
     color: gray;
 }
 
 /* PLAN SECTION STYLESHEET */
-.plan {
+.card-para {
     display: flex;
     background-color: hsl(225, 100%, 98%);
     height: 80px;
     margin: 0.9rem 1.5rem;
     border-radius: 10px;
 }
-.plan img {
+.card-para img {
     width: 40px;
     height: 40px;
     margin: 1.2rem 1rem;
 }
-.plan p {
-    margin: 0.7rem 0.3rem;              
-}
-.plan .para1 {
+/* .card-para div {
+    margin: 0.7rem 0.3rem 0.7rem 0.3rem;              
+} */
+.card-para .para1 {
     font-weight: 700;
     color: hsl(223, 47%, 23%);
+    margin: 0.7rem 0.3rem 0 0.3rem;
+
 }
-.plan .para2 {
+.card-para .para2 {
     font-weight: 500;
     color: gray;
+    margin: 0 0.3rem 0.7rem 0.3rem;
 }
-.plan a {
+.card-para a {
     margin: 1.5rem 1rem 1.2rem 4.2rem;
     font-size: 0.8rem;
     font-weight: 700;
@@ -80,7 +83,7 @@ a:active {
 }
 
 /* BUTTONS STYLESHEET */
-.btn {
+.btn-access .btn {
     width: 18rem;
     height: 2.8rem;
     font-size: 0.9rem;
@@ -90,23 +93,23 @@ a:active {
     border-radius: 10px;
     transition: transform 0.4s;
 }
-.payment {
+.btn-primary {
     background-color: hsl(245, 75%, 52%);
     color: white;
     font-weight: 700;
     box-shadow: 2px 4px 20px gray;
 }
-.cancel {
+.btn-secondary {
     background-color: hsl(225, 100%, 98%);
     color: gray;
     font-weight: 700;
 }
-.payment:hover {
+.btn-primary:hover {
     background-color: hsl(224, 23%, 55%);
     box-shadow: 5px 8px 20px 2px gray;
     transform: scale(1.05);
 }
-.cancel:hover {
+.btn-secondary:hover {
     box-shadow: 5px 8px 20px 2px gray;
     transform: scale(1.05);
     color: black;

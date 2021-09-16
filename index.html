@@ -11,31 +11,34 @@
 </head>
 <body>
      <div class="card-container">
-       <div class="card" role='main'>
-          <img src="./images/illustration-hero.svg" alt="hero-picture" role="img">
-          <section class="summary">
+       <div class="card" >
+          <img src="./images/illustration-hero.svg" alt="hero-picture">
+          <div class="card-text">
             <h1>Order summary</h1>
-            <h2 role="contentinfo">You can now listen to millions of songs, audiobooks, and 
+            <h2>You can now listen to millions of songs, audiobooks, and 
               podcasts on any device anywhere you like!
             </h2>
-          </section>
-          <div class='plan'>
+          </div>
+          <div class='card-para'>
              <img src="./images/icon-music.svg" alt="music icon"> 
-             <p>
-               <span class="para1">Annual Plan</span>
-               <br>
-               <span class="para2">$59.99/year</span>
-              </p>
-             <a href="#">Change</a>
+             <div>
+               <h2 class="para1">Annual Plan</h2>
+               
+               <p class="para2">$59.99/year</p>
+              </div>
+             <a href="#" class="btn">Change</a>
             </div>
           <div>
-            <button type="button" class="btn payment">
-              Proceed to Payment
-            </button>
-            <br>
-            <button type="button" class="btn cancel">
-              Cancel Order
-            </button>
+            <div class='btn-access'>
+              <button type="button" class="btn btn-primary">
+                Proceed to Payment
+              </button>
+              <br>
+              <button type="button" class="btn btn-secondary">
+                Cancel Order
+              </button>
+            </div>
+            
           </div>
        </div>
      </div>
