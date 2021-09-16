@@ -35,14 +35,14 @@ body {
 .summary {
     margin: 0.5rem 2.3rem;
 }
-.summary h1 {
+.summary h2 {
     font-size: 1.5rem;
     font-weight: 900;
     color: hsl(223, 47%, 23%);
     margin: 2rem;
     margin-bottom: 1rem;
 }
-.summary h2 {
+.summary p {
     color: gray;
 }
 
@@ -59,7 +59,7 @@ section {
     height: 40px;
     margin: 1.2rem 1rem;
 }
-.plan h2 {
+.plan p {
     margin: 0.7rem 0.3rem;              
 }
 .plan .para1 {
