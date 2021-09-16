@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links 
 
-- Solution URL: (https://github.com/Tiyana19/Order-summary-component)
+- Solution URL: (https://github.com/Tiyana19/Order-summary-components)
 
 ### Built with 
 
@@ -34,6 +34,9 @@ Users should be able to:
 ### What I learned 
 
 I learned about Flexbox and I also try using relative units as much as I can. 
+
+# github lesson that I learned 
+I also learned that github is (Case Sensitive) so in the future I will remember this and try to keep the folder and files name in lower cases by default.
 
 ### Continued developemt 
 
