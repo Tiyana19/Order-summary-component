@@ -114,3 +114,6 @@ a:active {
     transform: scale(1.05);
     color: black;
 }
+.btn {
+    cursor: pointer;
+}
