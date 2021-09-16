@@ -12,27 +12,31 @@
 <body>
      <div class="card-container">
        <div class="card" role='main'>
-          <img src="./images/illustration-hero.svg" alt="hero-picture" >
-          <header class="summary">
-            <h2>Order summary</h2>
-            <p>You can now listen to millions of songs, audiobooks, and 
+          <img src="./images/illustration-hero.svg" alt="hero-picture" role="img">
+          <section class="summary">
+            <h1>Order summary</h1>
+            <h2 role="contentinfo">You can now listen to millions of songs, audiobooks, and 
               podcasts on any device anywhere you like!
-            </p>
-          </header>
+            </h2>
+          </section>
           <section class='plan'>
              <img src="./images/icon-music.svg" alt="music icon"> 
-             <p role='price-to-pay'><span class="para1">Annual Plan</span><br><span class="para2">$59.99/year</span></p>
+             <p role='price-to-pay'>
+               <span class="para1">Annual Plan</span>
+               <br>
+               <span class="para2">$59.99/year</span>
+              </p>
              <a href="#" role='change-plan-link'>Change</a>
           </section>
-          <footer>
-            <button type="button" class="btn payment">
+          <section>
+            <button type="button" class="btn payment" role="button">
               Proceed to Payment
             </button>
             <br>
-            <button type="button" class="btn cancel">
+            <button type="button" class="btn cancel" role="button">
               Cancel Order
             </button>
-          </footer>
+          </section>
        </div>
      </div>
 </body>

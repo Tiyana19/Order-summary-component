@@ -35,19 +35,19 @@ body {
 .summary {
     margin: 0.5rem 2.3rem;
 }
-.summary h2 {
+.summary h1 {
     font-size: 1.5rem;
     font-weight: 900;
     color: hsl(223, 47%, 23%);
     margin: 2rem;
     margin-bottom: 1rem;
 }
-.summary p {
+.summary h2 {
     color: gray;
 }
 
 /* PLAN SECTION STYLESHEET */
-section {
+.plan {
     display: flex;
     background-color: hsl(225, 100%, 98%);
     height: 80px;
