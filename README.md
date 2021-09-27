@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links 
 
-- Solution URL: (https://github.com/Tiyana19/Order-summary-components)
+- Solution URL: (https://tiyana19.github.io/order-summary-component/)
 
 ### Built with 
 
