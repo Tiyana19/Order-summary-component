@@ -6,8 +6,8 @@
     font-size: 1rem;
 }
 body {
-    background-image: url(./images/wave.svg);
-    background-repeat: no-repeat;
+    background-image: url(./images/wave.svg), #E1E9Ff;
+    background-repeat: no-repeat, no-repeat;
     background-color: hsl(225, 100%, 96%);
 }
 .card-container {
